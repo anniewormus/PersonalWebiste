@@ -81,3 +81,21 @@ html, body {
     margin: 0 auto;
     padding: 1.5em 1.5em;
 }
+
+.about-header {
+    background-image: url("images/about-bg.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.projects-header {
+    background-image: url("images/projects-bg.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.random-header {
+    background-image: url("images/random-bg.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+}
