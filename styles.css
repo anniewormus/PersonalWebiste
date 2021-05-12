@@ -46,7 +46,7 @@ html, body {
 .main-header {
     background-image: url("images/header-bg.jpg");
     background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 20%;
 }
 
 .name {
@@ -56,14 +56,34 @@ html, body {
     color: white;
 }
 
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade {
+    animation-name: fade-in;
+    animation-duration: 4s;
+}
+
 .name-large {
-    padding-top: 1em;
     font-size: 5em;
 }
 
 .page-title {
     padding-top: 10px;
     font-size: 5em;
+}
+
+.face-info {
+    margin-top: 100px;
+    float: left;
+}
+
+.head-shot {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
 }
 
 .sub-header {
@@ -77,9 +97,32 @@ html, body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 1.5em 1.5em;
+}
+
+.main-footer {
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container h3 {
+    font-size: 2em;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
 }
 
 .about-header {
