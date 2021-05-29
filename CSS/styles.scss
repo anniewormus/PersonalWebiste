@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url("/images/header-bg.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.navbar {
+
+    padding: 1em;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+
+    .container {
+        flex-wrap: wrap;
+        place-content: center;
+        
+        nav {
+            li {
+                display: inline;
+                padding: 0 5%;
+            }   
+            a {
+                padding-top: .5em;
+                color: white;
+                text-decoration: none;
+
+            }
+        }
+    }
+}
+
+.hero {
+    text-align: center;
+    color: white;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        place-content: center;
+    }
+    h3 {
+        padding-top: 2em;
+    }
+}
+.sub-header-text {
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.name-large {
+    font-family: 'Exo 2';
+    font-size: 3.5em;
+    margin: .2em 0 .2em 0;
+}
+
+.head-shot {
+    height: 400px;
+    width: auto;
+}
+
+
+
