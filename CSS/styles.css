@@ -62,8 +62,43 @@ body {
   place-content: center;
 }
 
+.hero .container-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  place-content: center;
+}
+
 .hero h3 {
   padding-top: 2em;
+}
+
+.hero .triangle-right {
+  margin-top: 5em;
+  margin-bottom: -5em;
+  border-top: 10em solid transparent;
+  border-left: 50em solid #9e72f6;
+  opacity: .5;
+  border-bottom: 10em solid transparent;
+}
+
+.hero .triangle-right-overlay {
+  margin-top: -300px;
+  margin-left: 20px;
+}
+
+.hero .trapezoid-overlay {
+  margin-top: -770px;
+  margin-right: 20px;
+}
+
+.hero .trapezoid {
+  border-right: 50em solid #ee33d2;
+  opacity: .5;
+  border-top: 10em solid transparent;
+  height: 40em;
 }
 
 .sub-header-text {
